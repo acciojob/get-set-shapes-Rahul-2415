@@ -1,6 +1,6 @@
-//complete this code
+// complete this code
 class Rectangle {
-	constructor(width, height) {
+  constructor(width, height) {
     this._width = width;
     this._height = height;
   }
@@ -18,8 +18,8 @@ class Rectangle {
   }
 }
 
-class Square extends Animal {
-	constructor(side) {
+class Square extends Rectangle {
+  constructor(side) {
     super(side, side);
   }
 
@@ -28,6 +28,6 @@ class Square extends Animal {
   }
 }
 
-// Do not change the code below this line
+
 window.Rectangle = Rectangle;
 window.Square = Square;
